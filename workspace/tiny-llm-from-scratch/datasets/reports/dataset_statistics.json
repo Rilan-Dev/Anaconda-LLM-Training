@@ -1,0 +1,12 @@
+{
+    "total_samples": 25000,
+    "average_prompt_characters": 224.49,
+    "average_response_characters": 1706.46,
+    "average_prompt_words": 29.77,
+    "average_response_words": 214.07,
+    "longest_prompt": 268,
+    "shortest_prompt": 179,
+    "longest_response": 2119,
+    "shortest_response": 1278,
+    "vocabulary_size": 92
+}

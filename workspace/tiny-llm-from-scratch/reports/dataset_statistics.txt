@@ -1,0 +1,33 @@
+TinyGPT Dataset Report
+==================================================
+
+total_samples
+4783
+
+empty_records
+4783
+
+average_instruction_length
+0.0
+
+average_response_length
+0.0
+
+longest_instruction
+0
+
+shortest_instruction
+0
+
+longest_response
+0
+
+shortest_response
+0
+
+categories
+{'advanced_coding': 2412, 'cybersecurity': 1593, 'scientific_analysis': 188, 'mathematical_reasoning': 453, 'agentic_planning': 84, 'general_expert_qa': 53}
+
+sources
+{'Unknown': 4783}
+

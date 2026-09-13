@@ -1,0 +1,9 @@
+{
+    "encoding": "utf-8",
+    "train_ratio": 0.98,
+    "shuffle": true,
+    "remove_duplicates": true,
+    "normalize_unicode": true,
+    "remove_empty_lines": true,
+    "minimum_document_length": 20
+}

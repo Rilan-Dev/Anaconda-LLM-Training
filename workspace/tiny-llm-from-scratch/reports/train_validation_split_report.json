@@ -1,0 +1,10 @@
+{
+    "stage": "train_validation_test_split",
+    "total_samples": 5315,
+    "train_samples": 4783,
+    "validation_samples": 265,
+    "test_samples": 267,
+    "train_ratio": 0.9,
+    "validation_ratio": 0.05,
+    "test_ratio": 0.05
+}

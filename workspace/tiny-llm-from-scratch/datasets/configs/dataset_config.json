@@ -1,0 +1,30 @@
+{
+    "dataset_name": "Claude Mythos",
+
+    "raw_dataset":
+        "datasets/raw/claude_mythos",
+
+    "clean_dataset":
+        "datasets/processed/cleaned/clean_dataset.json",
+
+    "normalized_dataset":
+        "datasets/processed/normalized/normalized_dataset.json",
+
+    "deduplicated_dataset":
+        "datasets/processed/deduplicated/deduplicated_dataset.json",
+
+    "merged_dataset":
+        "datasets/processed/merged/merged_dataset.json",
+
+    "shuffled_dataset":
+        "datasets/processed/shuffled/shuffled_dataset.json",
+
+    "train_dataset":
+        "datasets/processed/split/train_dataset.json",
+
+    "validation_dataset":
+        "datasets/processed/split/validation_dataset.json",
+
+    "report_folder":
+        "datasets/processed/reports"
+}

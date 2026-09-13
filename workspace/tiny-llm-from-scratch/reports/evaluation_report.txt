@@ -1,0 +1,11 @@
+TinyGPT Evaluation Report
+============================================================
+Model : tinyllm_100k_char
+Parameters : 111104
+Vocabulary : 44
+Layers : 2
+Heads : 4
+Embedding : 64
+Block Size : 128
+Training Step : 4750
+Best Loss : 0.05055588111281395

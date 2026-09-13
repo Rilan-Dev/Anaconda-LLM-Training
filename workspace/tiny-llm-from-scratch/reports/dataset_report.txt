@@ -1,0 +1,16 @@
+
+TinyGPT Dataset Report
+======================
+
+Dataset : Claude Mythos Distilled 25K
+
+Original Samples : 25000
+
+Clean Samples : 25000
+
+Characters : 51148750
+
+Words : 6196004
+
+Lines : 813542
+

@@ -1,0 +1,22 @@
+services:
+  anaconda-llm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: anaconda-llm-training
+    restart: unless-stopped
+
+    ports:
+      - "0.0.0.0:6888:6888"
+
+    volumes:
+      - ./workspace:/workspace
+
+    environment:
+      JUPYTER_TOKEN: "${JUPYTER_TOKEN}"
+      OMP_NUM_THREADS: "4"
+      MKL_NUM_THREADS: "4"
+      OPENBLAS_NUM_THREADS: "4"
+      NUMEXPR_NUM_THREADS: "4"
+
+    shm_size: "2gb"

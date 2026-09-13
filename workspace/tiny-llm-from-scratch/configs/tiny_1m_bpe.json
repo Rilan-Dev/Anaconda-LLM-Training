@@ -1,0 +1,33 @@
+{
+    "model_name": "tinyllm_1m_bpe",
+
+    "tokenizer": "bpe",
+
+    "tokenizer_path": "tokenizer/bpe/tokenizer.json",
+
+    "dataset": "datasets/processed/split/train.json",
+
+    "checkpoint_dir": "checkpoints",
+
+    "block_size": 256,
+
+    "n_layer": 8,
+
+    "n_head": 8,
+
+    "n_embd": 256,
+
+    "dropout": 0.1,
+
+    "batch_size": 8,
+
+    "learning_rate": 0.0003,
+
+    "max_steps": 30000,
+
+    "eval_interval": 500,
+
+    "eval_iters": 100,
+
+    "device": "cpu"
+}

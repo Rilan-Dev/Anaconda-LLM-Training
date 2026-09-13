@@ -1,0 +1,14 @@
+{
+  "model_name": "tinyllm_100k_char",
+  "block_size": 128,
+  "n_layer": 2,
+  "n_head": 4,
+  "n_embd": 64,
+  "dropout": 0.1,
+  "batch_size": 16,
+  "learning_rate": 0.0003,
+  "max_steps": 5000,
+  "eval_interval": 250,
+  "eval_iters": 50,
+  "device": "cpu"
+}
